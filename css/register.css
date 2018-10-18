@@ -1,0 +1,143 @@
+html{color:#000;background:#FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,figure{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul,li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}
+legend{color:#000}
+body{margin:0 auto;overflow: auto;min-width: 1176px;overflow: auto;font: 12px "宋体";color: #606060;}
+a{text-decoration: none;}
+
+*{box-sizing: border-box;
+	font-family: "微软雅黑";}
+.clearfix:after{clear:both; content:''; font-size:0; display:block; visibility:hidden; height:0}
+
+
+
+
+
+
+
+
+
+
+
+.register_content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	height:96px;
+	width: 100%;
+	border-bottom: 2px solid #3A9900;
+}
+.logo{
+	margin-top: 8px;
+	float: left;
+}
+.header_title{
+	float: left;
+	padding: 35px 0 0 23px;
+	font: 20px "微软雅黑";
+	color: #000;
+	
+}
+.header_tip{
+	float: right;
+	padding: 35px 20px 0 0;
+}
+.header_tip span,.header_tip a{
+	font: 16px "微软雅黑";
+	color: #000;
+}
+
+.section{
+	width: 100%;
+	padding-top: 20px;
+}
+.section_bg{
+	float: left;
+	width: 650px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+.register_bd{
+	width: 280px;
+	float: right;
+	margin-top: 40px;
+}
+.register_bd_inner{
+	width: 280px;
+}
+.register_input{
+	height:35px ;
+	width: 280px;
+	border: #ccc 1px solid;
+	/*margin-bottom: 30px;*/
+}
+.register_input span{
+	display: block;
+	float: left;
+	font: 14px "微软雅黑";
+	color: #333;
+	margin: 5px 15px 0 15px;
+}
+.register_input input{
+	display: block;
+	float: left;
+	height: 33px;
+	width: 150px;
+	font: 12px "微软雅黑";
+	/*color: #999;*/
+	outline:none;
+	padding-left: 10px;
+	border: none;
+}
+.input_tip{
+	height: 18px;
+	/*width: 280px;*/
+	display: inline-block;
+	font: 12px "微软雅黑";
+	color: #ACACAC;
+	background: rgb(254, 230, 231);
+	/*border: 1px solid rgb(250, 162, 166);*/
+	border-radius: 3px;
+}
+#reigister{
+	height: 35px;
+	width: 100%;
+	background: #3A9900;
+	font: 16px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
