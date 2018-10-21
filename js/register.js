@@ -157,12 +157,12 @@
                 oEmTips.innerHTML = " 邮箱或手机号不能为空 ";
                 return 0;
             }
-            var url = "http://localhost:8888/proxy/localhost/womai/php/register.2.php";
+            var url = "http://localhost/womai/php/register.2.php";
             ajaxPost(url,`username=${oUsr.value}&password=${oPwd.value}`)
             .then(function(res){
                 if(res){
                 	console.log(res)
-                	location.href = "http://localhost/jd/jdlogin.html"
+                	location.href = "http://localhost:8888/login.html"
                 }
             })
         }

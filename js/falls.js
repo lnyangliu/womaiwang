@@ -51,7 +51,7 @@ function Pagination(){
             for(var i = 5 * this.now_page ; i <= 5* this.now_page + 4; i ++){
                 html += `
                         <li>
-                            <img src="${list[i].images.small}" alt="">
+                            <img src="${list[i].images.small}" data-id=${i} alt="">
                             <p>${list[i].title}</p>
                             <div class="similar" id="${list[i].id}"><a href="#">加入</br>购物车</a></div>
                         </li>`
@@ -98,3 +98,20 @@ function Pagination(){
         }   
         var pagination = new Pagination();
         pagination.init();
+        
+var olist = document.querySelector("#wrap ul");
+console.log(olist)
+//事件委托：
+olist.onclick =function(event){
+    var imglist = document.querySelectorAll("#wrap img");
+    var imgArr = Array.from(imglist);
+    console.log(imgArr)
+    var e =event || window.event;
+    var target = e.target || e.srcElement;
+    if(imgArr.indexOf(target)!=-1){
+
+        cookie("id",target.getAttribute("data-id"))
+        location.href="detail.html"
+    }
+
+}
