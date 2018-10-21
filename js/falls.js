@@ -115,3 +115,44 @@ olist.onclick =function(event){
     }
 
 }
+
+
+
+var oSimilar = document.querySelector(".similar");
+console.log(oSimilar)
+//事件委托：
+oSimilar.onclick =function(event){
+    var imglist = document.querySelectorAll("#wrap img");
+    var imgArr = Array.from(imglist);
+    console.log(imgArr)
+    var e =event || window.event;
+    var target = e.target || e.srcElement;
+    if(imgArr.indexOf(target)!=-1){
+
+        cookie("id",target.getAttribute("data-id"))
+        location.href="detail.html"
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
