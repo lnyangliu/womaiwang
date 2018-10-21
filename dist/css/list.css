@@ -774,7 +774,7 @@ a{text-decoration: none;}
 	position: absolute;
 	right: 0;
 	top: 48px;
-	width: 360px;
+	width: 300px;
 	border: 1px solid #3EA600;
 	/*border-top: none;*/
 	text-align: center;
@@ -796,6 +796,39 @@ a{text-decoration: none;}
 	display: block;
 	z-index: 4;
 }
+.cart_more li{
+	width:260px;
+	margin: 10px 15px;
+	height: 50px;
+	
+}
+.cart_more li img{
+	height: 48px;
+	width: 48px;
+	display: block;
+	float: left;
+	margin: 0 10px;
+}
+.cart_more li h3{
+	height: 48px;
+	line-height: 48px;
+	width: 100px;
+	display: block;
+	float: left;
+	color: #333;
+	/*margin: 0 10px;*/
+}
+.cart_more li strong{
+	height: 48px;
+	line-height: 48px;
+	width: 30px;
+	display: block;
+	float: right;
+	color: #2D8800;
+}
+
+
+
 
 
 
@@ -1024,7 +1057,8 @@ a{text-decoration: none;}
 	border-radius: 50%;
 	text-align: center;
 	background: #222;
-	
+	font: 12px "微软雅黑";
+	color: #fff;
 	position: absolute;
 	bottom: 25px;
 	left: 85px;

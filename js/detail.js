@@ -134,7 +134,7 @@ $.extend(WaterFall.prototype,{
         // var i="";
         //判断cookie中是否有id
         // var res="";
-        if( cookie("id")){
+        if(cookie("id")){
             i=cookie("id");   //cookie("id")一个参数，是查找，返回value
             console.log(i);
             oimg.src = json[i].images.small;

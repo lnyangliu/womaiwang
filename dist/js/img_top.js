@@ -9,4 +9,18 @@ $(function(){
 			height:"100px"
 		})
 	},4000)
+	$(".img_top2").click(function(){
+		location.href = "list.html"
+	})
+	
+	$("#register").click(function(){
+		location.href = "register.html"
+	})
+	
+	
+	$("#login").click(function(){
+		location.href = "login.html"
+	})
+	
+	
 })

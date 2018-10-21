@@ -405,6 +405,7 @@ a{text-decoration: none;}
 	text-align: center;
 	height: 100%;
 	z-index: 50;
+	position: absolute;
 }
 .my_count_more{
 	position: absolute;
