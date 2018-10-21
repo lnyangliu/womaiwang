@@ -124,13 +124,14 @@ console.log(oSimilar)
 oSimilar.onclick =function(event){
     var imglist = document.querySelectorAll("#wrap img");
     var imgArr = Array.from(imglist);
+    var cartArr = [];
     console.log(imgArr)
     var e =event || window.event;
     var target = e.target || e.srcElement;
     if(imgArr.indexOf(target)!=-1){
 
-        cookie("id",target.getAttribute("data-id"))
-        location.href="detail.html"
+        cookie("id1",target.getAttribute("data-id"));
+        cartArr.push(target.getAttribute("data-id"));
     }
 
 }
